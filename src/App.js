@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import IndexPage from "./pages";
 import LogInPage from "./pages/LogIn";
 import Onboarding from "./pages/Onboarding";
-// import SignUpPage from "./pages/SignUp";
+import SignUpPage from "./pages/SignUp";
 // import DoctorsPage from "./pages/Dashboard/Doctors";
 // import StartPage from "./pages/Dashboard/Start";
 // import AppointmentPage from "./pages/Dashboard/Appointments";
@@ -29,8 +29,8 @@ function App() {
               <Route exact path="/" element={<IndexPage />} />
               <Route path="/onboarding" element={<Onboarding />} />
               <Route path="/login" element={<LogInPage />} />
-              {  /* <Route path="/signup" element={<SignUpPage />} />
-              <Route path="/start" element={<StartPage />} />
+              <Route path="/signup" element={<SignUpPage />} />
+              {  /*    <Route path="/start" element={<StartPage />} />
               <Route path="/doctors" element={<DoctorsPage />} />
               <Route path="/chat" element={<SupportPage />} />
               <Route path="/appointments" element={<AppointmentPage />} />
